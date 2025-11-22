@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <!-- Configurações essenciais do documento -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Importação da fonte 'MedievalSharp' do Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap" rel="stylesheet">
+
+    <!-- Link para a folha de estilos externa -->
+    <link rel="stylesheet" href="/base de conhecimento/style.css">
+    <title>Sonserina - Mundo Bruxo</title>
+</head>
+<body>
+
+ <!-- 
+      Player de música de fundo. 
+      O 'src' deve ser o caminho para um arquivo de áudio local no seu projeto.
+      Exemplo: "/base de conhecimento/hedwigs-theme.mp3"
+    -->
+    <audio id="background-music" src="/base de conhecimento/Projeto_novo.mp3" loop autoplay></audio>
+    <button id="music-toggle-btn" class="music-control">🎵</button>
+
+    <!-- Cabeçalho da página da casa -->
+    <header class="site-header slytherin">
+        <img src="https://th.bing.com/th/id/R.d56be0239a6ce9a273668ed3fe90c7a4?rik=r94QkFfzFClk1A&riu=http%3a%2f%2f4.bp.blogspot.com%2f-gh98-NhfOjo%2fUfQO2EKbYEI%2fAAAAAAAABzA%2fTQPrnxYP-us%2fs1600%2fE84782%2bc%c3%b3pia.png&ehk=n7TtiFXGzHR%2bzWgDWiwXH%2bQzTRxqCpxzbXuJpcTV0ZE%3d&risl=&pid=ImgRaw&r=0" alt="Brasão da Sonserina" class="house-crest">
+        <h1>Casa Sonserina</h1>
+        <p>Onde a ambição, a astúcia e o poder são valorizados.</p>
+    </header>
+
+    <!-- Conteúdo principal da página -->
+    <main class="house-page-container">
+        <a href="index.html" class="back-link">↩ Voltar para a Home</a>
+
+        <!-- Seção sobre a casa -->
+        <section class="house-details">
+            <h2>Sobre a Sonserina</h2>
+            <p>Fundada por Salazar Slytherin, a casa Sonserina é conhecida por abrigar bruxos ambiciosos, astutos e com sede de poder. Seus membros frequentemente vêm de linhagens de sangue puro e são mestres na arte da Legilimência. O salão comunal fica nas masmorras, sob o Lago Negro. O animal símbolo é a serpente, e suas cores são o verde e o prata.</p>
+        </section>
+
+        <!-- Seção de Personagens Principais -->
+        <h2>Membros Notáveis</h2>
+        <div class="characters-section">
+            <div class="character-card slytherin-card">
+                <div class="character-card-inner">
+                    <div class="character-card-front">
+                        <img src="https://th.bing.com/th/id/R.a810d29fcd6e0f3bc472b2e760699edb?rik=0J8atciEPJHRrw&pid=ImgRaw&r=0" alt="Retrato de Draco Malfoy">
+                        <h3>Draco Malfoy</h3>
+                    </div>
+                    <div class="character-card-back">
+                        <h3>Draco Malfoy</h3>
+                        <p>Rival de Harry Potter, vindo de uma família de sangue puro e Comensal da Morte.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="character-card slytherin-card">
+                <div class="character-card-inner">
+                    <div class="character-card-front">
+                        <img src="https://th.bing.com/th/id/R.1b07bb04aa71421dff52df42bd4e9297?rik=WMkanqVaoaZ1Mw&riu=http%3a%2f%2f3.bp.blogspot.com%2f-fhas0pLUpEY%2fUHXpae5gleI%2fAAAAAAAAIoY%2fZIQbv_yWPtY%2fs1600%2fSnape-severus-snape-15700150-640-480.jpg&ehk=Wr0X8aoJEKnNrKp7XQpUfriABQReszmJQfXyuc1C%2fo0%3d&risl=&pid=ImgRaw&r=0" alt="Retrato de Severus Snape">
+                        <h3>Severus Snape</h3>
+                    </div>
+                    <div class="character-card-back">
+                        <h3>Severus Snape</h3>
+                        <p>Mestre de Poções e uma figura complexa que atuou como agente duplo na guerra contra Voldemort.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="character-card slytherin-card">
+                <div class="character-card-inner">
+                    <div class="character-card-front">
+                        <img src="https://tse4.mm.bing.net/th/id/OIP.B-TfZo2lgrMei8zxPyrIBgHaE8?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Retrato de Lord Voldemort">
+                        <h3>Lord Voldemort</h3>
+                    </div>
+                    <div class="character-card-back">
+                        <h3>Lord Voldemort</h3>
+                        <p>O herdeiro de Sonserina e o bruxo das trevas mais temido de todos os tempos, também conhecido como Tom Riddle.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Seção de Habilidades e Artefatos -->
+        <div class="info-columns">
+            <section>
+                <h2>Habilidades e Feitiços</h2>
+                <ul class="info-list slytherin-list">
+                    <li><strong>Ofidioglossia:</strong> A rara habilidade de falar com cobras, uma característica do próprio Salazar Slytherin.</li>
+                    <li><strong>Artes das Trevas:</strong> Muitos membros são proficientes em feitiços e maldições das Artes das Trevas.</li>
+                    <li><strong>Legilimência:</strong> A arte de 'ler' a mente de outra pessoa, dominada por bruxos como Snape e Voldemort.</li>
+                </ul>
+            </section>
+            <section>
+                <h2>Artefatos e Lugares</h2>
+                <ul class="info-list slytherin-list">
+                    <li><strong>O Medalhão de Slytherin:</strong> Um dos artefatos de Salazar Slytherin, que foi transformado em uma das Horcruxes de Voldemort.</li>
+                    <li><strong>A Câmara Secreta:</strong> Uma câmara oculta criada por Salazar Slytherin que abrigava um Basilisco.</li>
+                    <li><strong>Salão Comunal:</strong> Localizado nas masmorras de Hogwarts, com uma vista para as profundezas do Lago Negro.</li>
+                </ul>
+            </section>
+        </div>
+    </main>
+
+    <script src="/base de conhecimento/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <!-- Configurações essenciais do documento -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Importação da fonte 'MedievalSharp' do Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap" rel="stylesheet">
+
+    <!-- Link para a folha de estilos externa -->
+    <link rel="stylesheet" href="/base de conhecimento/style.css">
+    <title>Lufa-Lufa - Mundo Bruxo</title>
+</head>
+<body>
+
+     <!-- 
+      Player de música de fundo. 
+      O 'src' deve ser o caminho para um arquivo de áudio local no seu projeto.
+      Exemplo: "/base de conhecimento/hedwigs-theme.mp3"
+    -->
+    <audio id="background-music" src="/base de conhecimento/Projeto_novo.mp3" loop autoplay></audio>
+    <button id="music-toggle-btn" class="music-control">🎵</button>
+
+    <!-- Cabeçalho da página da casa -->
+    <header class="site-header hufflepuff">
+        <img src="https://th.bing.com/th/id/R.87773cec2e57194a93bf93d3fdc091ae?rik=gDWQxH8%2fZWJA5g&riu=http%3a%2f%2fpm1.narvii.com%2f7032%2f7212cad021831d5ad7c6b88a6d72b8e3b0d8126dr1-562-546v2_uhq.jpg&ehk=Nn01uyyjeEv2%2fjUwem8Y0gcYW0xTTjCjf%2bb%2brpIMJU0%3d&risl=&pid=ImgRaw&r=0" alt="Brasão da Lufa-Lufa" class="house-crest">
+        <h1>Casa Lufa-Lufa</h1>
+        <p>Onde lealdade, paciência e justiça são valorizadas.</p>
+    </header>
+
+    <!-- Conteúdo principal da página -->
+    <main class="house-page-container">
+        <a href="index.html" class="back-link">↩ Voltar para a Home</a>
+
+        <!-- Seção sobre a casa -->
+        <section class="house-details">
+            <h2>Sobre a Lufa-Lufa</h2>
+            <p>Fundada pela bruxa Helga Hufflepuff, a Lufa-Lufa é a mais inclusiva das quatro casas. Seus membros são conhecidos por serem justos, leais e trabalhadores. Embora muitas vezes subestimados, os lufanos são bruxos talentosos e corajosos que valorizam a amizade e o jogo limpo acima de tudo. O animal símbolo é o texugo, e suas cores são o amarelo e o preto.</p>
+        </section>
+
+        <!-- Seção de Personagens Principais -->
+        <h2>Membros Notáveis</h2>
+        <div class="characters-section">
+            <div class="character-card hufflepuff-card">
+                <div class="character-card-inner">
+                    <div class="character-card-front">
+                        <img src="https://th.bing.com/th/id/R.e6900c224b25cab3edf396a386347e8e?rik=kVO0NBAOs0E6NQ&pid=ImgRaw&r=0" alt="Retrato de Newt Scamander">
+                        <h3>Newt Scamander</h3>
+                    </div>
+                    <div class="character-card-back">
+                        <h3>Newt Scamander</h3>
+                        <p>Um famoso Magizoologista e autor do livro "Animais Fantásticos e Onde Habitam".</p>
+                    </div>
+                </div>
+            </div>
+            <div class="character-card hufflepuff-card">
+                <div class="character-card-inner">
+                    <div class="character-card-front">
+                        <img src="https://tse1.mm.bing.net/th/id/OIP.prTfZHee8i8JIzne78FusQHaJt?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Retrato de Ninfadora Tonks">
+                        <h3>Ninfadora Tonks</h3>
+                    </div>
+                    <div class="character-card-back">
+                        <h3>Ninfadora Tonks</h3>
+                        <p>Uma Metamorfomaga e membro da Ordem da Fênix, conhecida por sua bravura e bom humor.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="character-card hufflepuff-card">
+                <div class="character-card-inner">
+                    <div class="character-card-front">
+                        <img src="https://th.bing.com/th/id/R.e9c510241d2c89cde36bf1e18c0717e0?rik=MZiH5sm%2fFtykLA&riu=http%3a%2f%2fimages2.fanpop.com%2fimages%2fphotos%2f7800000%2fCedric-Diggory-HQ-Stills-cedric-diggory-7880853-1058-1448.jpg&ehk=cFEVgVdvpox5kFwHYG8TWhQkKIwzZpWQyAwRf4P4yU0%3d&risl=&pid=ImgRaw&r=0" alt="Retrato de Cedrico Diggory">
+                        <h3>Cedrico Diggory</h3>
+                    </div>
+                    <div class="character-card-back">
+                        <h3>Cedrico Diggory</h3>
+                        <p>Um apanhador talentoso e campeão de Hogwarts no Torneio Tribruxo, lembrado por sua honra.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Seção de Feitiços e Acontecimentos -->
+        <div class="info-columns">
+            <section>
+                <h2>Valores e Habilidades</h2>
+                <ul class="info-list hufflepuff-list">
+                    <li><strong>Herbologia:</strong> Muitos lufanos, como a Professora Sprout, têm grande talento para lidar com plantas mágicas.</li>
+                    <li><strong>Lealdade:</strong> A lealdade é uma marca registrada, tornando-os amigos e aliados confiáveis.</li>
+                    <li><strong>Trabalho Duro:</strong> Lufanos não têm medo de se esforçar para alcançar seus objetivos de forma justa.</li>
+                </ul>
+            </section>
+            <section>
+                <h2>Acontecimentos Marcantes</h2>
+                <ul class="info-list hufflepuff-list">
+                    <li><strong>A Taça de Helga Hufflepuff:</strong> Um dos artefatos fundadores que, infelizmente, foi transformado em uma Horcrux.</li>
+                    <li><strong>Batalha de Hogwarts:</strong> A Lufa-Lufa foi a segunda casa com mais estudantes que ficaram para lutar, mostrando sua imensa coragem.</li>
+                    <li><strong>Campeonato de Quadribol:</strong> Cedrico Diggory liderou a equipe da Lufa-Lufa à vitória contra a Grifinória.</li>
+                </ul>
+            </section>
+        </div>
+    </main>
+
+    <script src="/base de conhecimento/script.js"></script>
+</body>
+</html>

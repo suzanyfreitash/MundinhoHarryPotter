@@ -1,0 +1,373 @@
+/* === VARIÁVEIS DE CORES GLOBAIS === */
+:root {
+  /* Cores base */
+  --fundo-escuro: #000000;
+  --texto-pergaminho: #e0d6c4;
+
+  /* Grifinória (Gryffindor) */
+  --gryffindor-vermelho: #740001;
+  --gryffindor-dourado: #d3a625;
+
+  /* Sonserina (Slytherin) */
+  --slytherin-verde: #1a472a;
+  --slytherin-prata: #aaaaaa;
+
+  /* Lufa-Lufa (Hufflepuff) */
+  --hufflepuff-amarelo: #ffdb00;
+  --hufflepuff-preto: #000000;
+
+  /* Corvinal (Ravenclaw) - Cores dos filmes */
+  --ravenclaw-azul: #0e1a40;
+  --ravenclaw-bronze: #946b2d; /* Bronze dos livros, mais distinto que prata */
+}
+
+/* === ESTILOS GLOBAIS E TIPOGRAFIA === */
+body {
+  background-color: var(--fundo-escuro);
+  color: var(--texto-pergaminho); /* Cor de texto padrão */
+  margin: 0;
+  padding: 0;
+  font-family: 'MedievalSharp', cursive;
+}
+
+p {
+  font-size: 1.1em; /* Aumenta a legibilidade da nova fonte */
+  line-height: 1.6; /* Melhora o espaçamento entre linhas */
+}
+
+/* === CLASSES DAS CASAS DE HOGWARTS === */
+.gryffindor {
+  background-color: var(--gryffindor-vermelho);
+  color: var(--gryffindor-dourado);
+  border: 1px solid var(--gryffindor-dourado);
+}
+
+.slytherin {
+  background-color: var(--slytherin-verde);
+  color: var(--slytherin-prata);
+  border: 1px solid var(--slytherin-prata);
+}
+
+/* Efeito de interação para os blocos das casas */
+.house-link section {
+  transition: transform 0.3s ease;
+}
+
+.house-link:hover section {
+  transform: translateY(-10px); /* Move o bloco para cima */
+}
+
+/* Remove a decoração padrão dos links que envolvem as seções das casas */
+.house-link {
+  text-decoration: none; /* Remove o sublinhado do link */
+}
+
+.hufflepuff {
+  background-color: var(--hufflepuff-amarelo);
+  color: var(--hufflepuff-preto);
+}
+
+.ravenclaw {
+  background-color: var(--ravenclaw-azul);
+  color: var(--ravenclaw-bronze);
+  border: 1px solid var(--ravenclaw-bronze);
+}
+
+/* === ESTILOS DO CABEÇALHO === */
+header {
+  text-align: center;
+  padding: 20px 0;
+  border-bottom: 2px solid var(--gryffindor-dourado);
+  margin-bottom: 20px;
+}
+
+h1 {
+  color: var(--gryffindor-dourado);
+  font-size: 3em;
+  text-shadow: 2px 2px 5px #000; /* Sombra para dar profundidade */
+  transition: text-shadow 0.3s ease; /* Transição suave para o efeito de brilho */
+}
+
+/* Efeito de brilho no título principal ao passar o mouse */
+h1:hover {
+  text-shadow: 0 0 10px var(--gryffindor-dourado), 2px 2px 5px #000;
+}
+
+/* === ESTILOS DO CAMPO DE BUSCA E BOTÃO === */
+#CampoBusca {
+  padding: 10px;
+  width: 250px;
+  border: 1px solid var(--ravenclaw-bronze);
+  background-color: var(--texto-pergaminho);
+  color: var(--fundo-escuro);
+  font-family: sans-serif; /* Fonte mais legível para input */
+}
+
+/* Estilo específico para o botão mágico "Accio" */
+#accio-button {
+  padding: 10px 20px;
+  background-color: var(--gryffindor-vermelho);
+  color: var(--gryffindor-dourado);
+  border: 1px solid var(--gryffindor-dourado);
+  border-radius: 5px; /* Cantos levemente arredondados */
+  cursor: pointer;
+  font-family: 'MedievalSharp', cursive;
+  font-size: 1.1em;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 5px var(--gryffindor-dourado); /* Adiciona um brilho sutil */
+}
+
+/* Efeito de hover para o botão "Accio" */
+#accio-button:hover {
+  background-color: var(--gryffindor-dourado);
+  color: var(--gryffindor-vermelho);
+  transform: scale(1.05); /* Aumenta o botão ao passar o mouse */
+  box-shadow: 0 0 15px var(--gryffindor-dourado); /* Intensifica o brilho */
+}
+
+/* === ESTILOS DO RODAPÉ === */
+footer {
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 30px;
+  border-top: 1px solid var(--ravenclaw-bronze);
+}
+
+/* Estilos para a lista de links no rodapé */
+footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+footer ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+/* Estilos para os links do rodapé */
+footer a {
+  color: var(--texto-pergaminho);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+/* Efeito de hover para os links do rodapé */
+footer a:hover {
+  color: var(--gryffindor-dourado);
+}
+
+/* === ESTILOS PARA PÁGINAS DAS CASAS === */
+
+/* Contêiner principal para as páginas das casas */
+.house-page-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Estilo do brasão da casa no cabeçalho */
+.house-crest {
+  max-width: 150px;
+  margin-bottom: 15px;
+}
+
+/* Link para voltar à página inicial */
+.back-link {
+  display: inline-block;
+  margin: 20px 0;
+  color: var(--texto-pergaminho);
+  text-decoration: none;
+  font-size: 1.2em;
+  transition: color 0.3s ease;
+}
+
+.back-link:hover {
+  color: var(--gryffindor-dourado);
+}
+
+/* Seção de personagens */
+.characters-section {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+/* Cartão individual de personagem */
+.character-card {
+  background-color: transparent;
+  /* A cor da borda usará a variável de destaque definida em cada classe de cartão */
+  border: 1px solid var(--card-accent-color, var(--gryffindor-dourado)); /* Usa dourado como padrão */
+  border-radius: 8px;
+  width: 250px;
+  height: 320px; /* Altura fixa para comportar o conteúdo */
+  perspective: 1000px; /* Cria o espaço 3D para a animação */
+  transition: box-shadow 0.3s ease; /* Adiciona transição para a sombra */
+}
+
+.character-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Ao passar o mouse, vira o cartão e adiciona uma sombra com a cor da casa */
+.character-card:hover .character-card-inner {
+  transform: rotateY(180deg);
+}
+
+.character-card-front, .character-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+  border-radius: 8px;
+  background-color: #1a1a1a;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+.character-card-front {
+  text-align: center;
+}
+
+.character-card-back {
+  transform: rotateY(180deg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.character-card:hover {
+  box-shadow: 0 0 15px var(--card-accent-color, var(--gryffindor-dourado));
+}
+
+/* === DEFINIÇÃO DAS CORES DE DESTAQUE PARA CADA CARTÃO === */
+.gryffindor-card {
+  --card-accent-color: var(--gryffindor-dourado);
+}
+
+.hufflepuff-card {
+  --card-accent-color: var(--hufflepuff-amarelo);
+}
+
+.ravenclaw-card {
+  --card-accent-color: var(--ravenclaw-bronze);
+}
+
+.slytherin-card {
+  --card-accent-color: var(--slytherin-prata);
+}
+
+.character-card img {
+  width: 100%;
+  height: 200px; /* Altura fixa para as imagens */
+  object-fit: cover; /* Garante que a imagem cubra o espaço sem distorcer */
+  border-radius: 5px;
+  /* A borda da imagem também usará a cor de destaque do cartão */
+  border-bottom: 2px solid var(--card-accent-color, var(--gryffindor-dourado));
+}
+
+/* Layout de duas colunas para informações */
+.info-columns {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  margin-top: 40px;
+}
+
+.info-list {
+  list-style-type: '🦁'; /* Emoji de leão como marcador */
+  padding-left: 25px;
+}
+
+/* Marcador de lista específico para Lufa-Lufa */
+.hufflepuff-list {
+  list-style-type: '🦡'; /* Emoji de texugo como marcador */
+}
+
+/* Marcador de lista específico para Corvinal */
+.ravenclaw-list {
+  list-style-type: '🦅'; /* Emoji de águia como marcador */
+}
+
+/* Marcador de lista específico para Sonserina */
+.slytherin-list {
+  list-style-type: '🐍'; /* Emoji de serpente como marcador */
+}
+
+.info-list li {
+  padding-left: 10px;
+  margin-bottom: 10px;
+}
+
+/* === ESTILOS PARA RESULTADOS DE BUSCA === */
+.search-result {
+  background-color: #1a1a1a;
+  border: 1px solid var(--ravenclaw-bronze);
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+  color: var(--texto-pergaminho);
+  transition: transform 0.3s ease;
+}
+
+/* === EFEITOS ESPECIAIS === */
+
+/* Estilo para o rastro de varinha no cursor */
+.sparkle {
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    background-color: var(--gryffindor-dourado);
+    border-radius: 50%;
+    pointer-events: none; /* Impede que as partículas interfiram com cliques */
+    z-index: 9999;
+    animation: sparkle-animation 0.8s forwards;
+    box-shadow: 0 0 5px var(--gryffindor-dourado),
+                0 0 10px var(--gryffindor-dourado);
+}
+
+/* Animação que faz a partícula diminuir e desaparecer */
+@keyframes sparkle-animation {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(0);
+        opacity: 0;
+    }
+}
+
+/* === ESTILO DO CONTROLE DE MÚSICA === */
+.music-control {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 10000;
+    background-color: var(--gryffindor-dourado);
+    color: var(--gryffindor-vermelho);
+    border: 1px solid var(--gryffindor-vermelho);
+    border-radius: 50%; /* Botão circular */
+    width: 50px;
+    height: 50px;
+    font-size: 1.5em;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 10px var(--gryffindor-dourado);
+    transition: all 0.3s ease;
+}
+
+.music-control:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 20px var(--gryffindor-dourado);
+}

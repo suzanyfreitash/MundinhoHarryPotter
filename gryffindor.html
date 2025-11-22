@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <!-- Configurações essenciais do documento -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Importação da fonte 'MedievalSharp' do Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap" rel="stylesheet">
+
+    <!-- Link para a folha de estilos externa -->
+    <link rel="stylesheet" href="/base de conhecimento/style.css">
+    <title>Grifinória - Mundo Bruxo</title>
+</head>
+<body>
+
+     <!-- 
+      Player de música de fundo. 
+      O 'src' deve ser o caminho para um arquivo de áudio local no seu projeto.
+      Exemplo: "/base de conhecimento/hedwigs-theme.mp3"
+    -->
+    <audio id="background-music" src="/base de conhecimento/Projeto_novo.mp3" loop autoplay></audio>
+    <button id="music-toggle-btn" class="music-control">🎵</button>
+
+    <!-- Cabeçalho da página da casa -->
+    <header class="site-header gryffindor">
+        <img src="https://th.bing.com/th/id/R.8856c0b06e5c7c726986c1d53d49774b?rik=w0hKZk9HZdcbjw&pid=ImgRaw&r=0" alt="Brasão da Grifinória" class="house-crest">
+        <h1>Casa Grifinória</h1>
+        <p>Onde habitam os corações indômitos.</p>
+    </header>
+
+    <!-- Conteúdo principal da página -->
+    <main class="house-page-container">
+        <a href="index.html" class="back-link">↩ Voltar para a Home</a>
+
+        <!-- Seção sobre a casa -->
+        <section class="house-details">
+            <h2>Sobre a Grifinória</h2>
+            <p>Fundada por Godrico Gryffindor, a casa Grifinória valoriza a coragem, o cavalheirismo e a determinação. Seus membros são conhecidos pela ousadia e por defenderem aquilo em que acreditam, mesmo diante de grandes perigos. O animal símbolo é o leão, e suas cores são o escarlate e o dourado.</p>
+        </section>
+
+        <!-- Seção de Personagens Principais -->
+        <h2>Membros Notáveis</h2>
+        <div class="characters-section">
+            <div class="character-card">
+                <div class="character-card-inner">
+                    <div class="character-card-front">
+                        <img src= "https://wallpapers.com/images/hd/harry-potter-profile-pictures-uv4i3kexi2m83eh2.jpg" alt="Retrato de Harry Potter">
+                        <h3>Harry Potter</h3>
+                    </div>
+                    <div class="character-card-back">
+                        <h3>Harry Potter</h3>
+                        <p>"O Menino que Sobreviveu", famoso por sua bravura e por derrotar Lord Voldemort.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="character-card">
+                <div class="character-card-inner">
+                    <div class="character-card-front">
+                        <img src="https://tse4.mm.bing.net/th/id/OIP.-MeeiEhS4hXQG1131RRY6wAAAA?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Retrato de Hermione Granger">
+                        <h3>Hermione Granger</h3>
+                    </div>
+                    <div class="character-card-back">
+                        <h3>Hermione Granger</h3>
+                        <p>A bruxa mais inteligente de sua geração, conhecida por sua lógica e lealdade inabalável.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="character-card">
+                <div class="character-card-inner">
+                    <div class="character-card-front">
+                        <img src="https://tse1.mm.bing.net/th/id/OIP.QPwj9X8iLIHYHZ5yh9rAkwHaE8?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Retrato de Ron Weasley">
+                        <h3>Ron Weasley</h3>
+                    </div>
+                    <div class="character-card-back">
+                        <h3>Ron Weasley</h3>
+                        <p>Um amigo leal e corajoso, sempre ao lado de Harry em suas aventuras mais perigosas.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Seção de Feitiços e Acontecimentos -->
+        <div class="info-columns">
+            <section>
+                <h2>Feitiços Característicos</h2>
+                <ul class="info-list">
+                    <li><strong>Expelliarmus:</strong> O feitiço de desarmar, marca registrada de Harry Potter.</li>
+                    <li><strong>Patronus:</strong> Um feitiço defensivo avançado que conjura um guardião de energia positiva.</li>
+                    <li><strong>Estupefaça:</strong> Usado para atordoar oponentes, muito comum em duelos.</li>
+                </ul>
+            </section>
+            <section>
+                <h2>Acontecimentos Marcantes</h2>
+                <ul class="info-list">
+                    <li><strong>A Vitória na Taça das Casas:</strong> No primeiro ano de Harry, a Grifinória venceu a taça no último momento.</li>
+                    <li><strong>A Batalha de Hogwarts:</strong> A casa liderou a resistência contra Voldemort e seus Comensais da Morte.</li>
+                    <li><strong>A Ordem da Fênix:</strong> Muitos membros da Grifinória, como Sirius Black e os pais de Harry, foram figuras centrais na Ordem.</li>
+                </ul>
+            </section>
+        </div>
+    </main>
+
+    <script src="/base de conhecimento/script.js"></script>
+</body>
+</html>

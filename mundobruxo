@@ -1,0 +1,24 @@
+Sobre o Projeto: Mundinho Harry Potter
+O projeto Mundinho Harry Potter é uma experiência web imersiva criada para todos os fãs da saga. O objetivo foi desenvolver um portal interativo e visualmente cativante, que não apenas informa, mas também transporta o usuário para o universo mágico de Hogwarts, utilizando tecnologias web modernas para simular "feitiços" e interações mágicas.
+
+Tecnologias Utilizadas
+HTML5: Para a estruturação semântica de todas as páginas, desde a página inicial até as páginas dedicadas a cada uma das casas de Hogwarts.
+CSS3: Responsável por toda a magia visual. Foi utilizado para criar uma atmosfera temática, com paletas de cores inspiradas nas casas, tipografia que remete a pergaminhos antigos e, principalmente, para as animações e efeitos especiais.
+JavaScript (ES6+): O cérebro por trás da interatividade. O JavaScript foi usado para implementar funcionalidades dinâmicas, efeitos visuais e o sistema de busca.
+Principais Funcionalidades e "Feitiços"
+Design Temático e Imersivo:
+
+Paleta de Cores: Cada casa (Grifinória, Sonserina, Lufa-Lufa e Corvinal) possui sua própria identidade visual, aplicada nos cabeçalhos, seções e detalhes das páginas.
+Tipografia Mágica: O uso da fonte "MedievalSharp" do Google Fonts confere ao site a aparência de um livro ou mapa antigo.
+Estrutura de Dados Centralizada (data.json):
+
+Para manter o projeto organizado e escalável, todas as informações textuais e links de imagens sobre as casas e seus personagens foram centralizados em um único arquivo JSON. Isso facilita a manutenção e a adição de novo conteúdo sem a necessidade de alterar o código HTML.
+Busca Mágica "Accio":
+
+A funcionalidade de busca, ativada pelo botão "Accio", permite que o usuário pesquise por qualquer termo em todo o conteúdo do site. O script de busca consulta o arquivo data.json e exibe os resultados de forma dinâmica, com links diretos para as páginas relevantes.
+Efeitos Especiais Interativos:
+
+Rastro de Varinha: Um efeito de partículas brilhantes segue o cursor do mouse por todas as páginas, simulando o rastro de uma varinha mágica.
+Cartões de Personagem 3D (Sapos de Chocolate): Nas páginas das casas, os cartões dos personagens viram ao passar o mouse, revelando a descrição no verso, em um efeito que lembra as famosas figurinhas dos Sapos de Chocolate.
+Trilha Sonora: A icônica música tema de Harry Potter toca automaticamente ao entrar no site, com um botão de controle que permite ao usuário pausar e retomar a música a qualquer momento, garantindo uma imersão completa.
+Em resumo, o projeto Mundinho Harry Potter é uma celebração do universo criado por J.K. Rowling, construído com uma arquitetura de front-end moderna que prioriza a experiência do usuário, a interatividade e, acima de tudo, a magia.

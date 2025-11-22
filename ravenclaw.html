@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <!-- Configurações essenciais do documento -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Importação da fonte 'MedievalSharp' do Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap" rel="stylesheet">
+
+    <!-- Link para a folha de estilos externa -->
+    <link rel="stylesheet" href="/base de conhecimento/style.css">
+    <title>Corvinal - Mundo Bruxo</title>
+</head>
+<body>
+
+     <!-- 
+      Player de música de fundo. 
+      O 'src' deve ser o caminho para um arquivo de áudio local no seu projeto.
+      Exemplo: "/base de conhecimento/hedwigs-theme.mp3"
+    -->
+    <audio id="background-music" src="/base de conhecimento/Projeto_novo.mp3" loop autoplay></audio>
+    <button id="music-toggle-btn" class="music-control">🎵</button>
+
+
+    <!-- Cabeçalho da página da casa -->
+    <header class="site-header ravenclaw">
+        <img src="https://tse4.mm.bing.net/th/id/OIP.RhNXZV9t7lEdQ3oeQc9tmwHaEq?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Brasão da Corvinal" class="house-crest">
+        <h1>Casa Corvinal</h1>
+        <p>A inteligência além da medida é o maior tesouro do homem.</p>
+    </header>
+
+    <!-- Conteúdo principal da página -->
+    <main class="house-page-container">
+        <a href="index.html" class="back-link">↩ Voltar para a Home</a>
+
+        <!-- Seção sobre a casa -->
+        <section class="house-details">
+            <h2>Sobre a Corvinal</h2>
+            <p>Fundada pela bruxa Rowena Ravenclaw, a casa Corvinal valoriza a inteligência, o conhecimento, a criatividade e a sabedoria. Seus membros são conhecidos por serem extremamente inteligentes e muitas vezes excêntricos. Para entrar em seu salão comunal, é preciso responder a um enigma, em vez de usar uma senha. O animal símbolo é a águia, e suas cores são o azul e o bronze.</p>
+        </section>
+
+        <!-- Seção de Personagens Principais -->
+        <h2>Membros Notáveis</h2>
+        <div class="characters-section">
+            <div class="character-card ravenclaw-card">
+                <div class="character-card-inner">
+                    <div class="character-card-front">
+                        <img src="https://tse2.mm.bing.net/th/id/OIP.3QK-a_pk64-ZS9tWar7R5QHaJs?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Retrato de Luna Lovegood">
+                        <h3>Luna Lovegood</h3>
+                    </div>
+                    <div class="character-card-back">
+                        <h3>Luna Lovegood</h3>
+                        <p>Uma bruxa excêntrica e sonhadora, conhecida por sua mente aberta e lealdade inabalável a seus amigos.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="character-card ravenclaw-card">
+                <div class="character-card-inner">
+                    <div class="character-card-front">
+                        <img src="https://tse4.mm.bing.net/th/id/OIP.WZSWcYG_eG5dApNTizvJXwAAAA?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Retrato de Filius Flitwick">
+                        <h3>Filius Flitwick</h3>
+                    </div>
+                    <div class="character-card-back">
+                        <h3>Filius Flitwick</h3>
+                        <p>Professor de Feitiços em Hogwarts e diretor da casa Corvinal. Um mestre em duelos, apesar de sua baixa estatura.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="character-card ravenclaw-card">
+                <div class="character-card-inner">
+                    <div class="character-card-front">
+                        <img src="https://th.bing.com/th/id/R.a91105353609697b7f409200e8ed94a1?rik=YtWN7vmcoNsbLg&riu=http%3a%2f%2fimages.fanpop.com%2fimages%2fimage_uploads%2fCho-Chang-harry-potter-110691_1379_1920.jpg&ehk=iH19EIostqDg14tO2DPBwjHeoMuiSRP1zylaxBqZ%2baA%3d&risl=&pid=ImgRaw&r=0" alt="Retrato de Cho Chang">
+                        <h3>Cho Chang</h3>
+                    </div>
+                    <div class="character-card-back">
+                        <h3>Cho Chang</h3>
+                        <p>Uma apanhadora talentosa para o time de Quadribol da Corvinal e membro da Armada de Dumbledore.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Seção de Habilidades e Artefatos -->
+        <div class="info-columns">
+            <section>
+                <h2>Habilidades e Feitiços</h2>
+                <ul class="info-list ravenclaw-list">
+                    <li><strong>Feitiços Não-Verbais:</strong> Muitos corvinais se destacam no uso de feitiços sem pronunciar o encantamento.</li>
+                    <li><strong>Criação de Feitiços:</strong> A criatividade da casa levou à invenção de novos feitiços por seus membros.</li>
+                    <li><strong>Raciocínio Lógico:</strong> Essencial para resolver os enigmas que protegem o salão comunal.</li>
+                </ul>
+            </section>
+            <section>
+                <h2>Artefatos e Lugares</h2>
+                <ul class="info-list ravenclaw-list">
+                    <li><strong>O Diadema de Ravenclaw:</strong> Um artefato mágico que supostamente aumenta a sabedoria de quem o usa.</li>
+                    <li><strong>Salão Comunal:</strong> Localizado em uma das torres mais altas do castelo, com uma vista deslumbrante.</li>
+                    <li><strong>A Aldrabra de Águia:</strong> O guardião encantado da entrada do salão comunal, que propõe enigmas.</li>
+                </ul>
+            </section>
+        </div>
+    </main>
+
+    <script src="/base de conhecimento/script.js"></script>
+</body>
+</html>

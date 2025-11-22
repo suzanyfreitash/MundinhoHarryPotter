@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <!-- Configurações essenciais do documento -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Importação da fonte 'MedievalSharp' do Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap" rel="stylesheet">
+
+    <!-- Link para a folha de estilos externa -->
+    <link rel="stylesheet" href="/base de conhecimento/style.css">
+</head>
+<title>Mundinho Bruxo</title>
+<body>
+    <!-- 
+      Player de música de fundo. 
+      O 'src' deve ser o caminho para um arquivo de áudio local no seu projeto.
+      Exemplo: "/base de conhecimento/hedwigs-theme.mp3"
+    -->
+    <audio id="background-music" src="/base de conhecimento/Projeto_novo.mp3" loop autoplay></audio>
+    <button id="music-toggle-btn" class="music-control">🎵</button>
+
+    <!-- Cabeçalho principal da página -->
+    <header class="site-header">
+        <h1> Mundinho Harry Potter </h1>
+        <div>
+            <input type="text" placeholder="Digite a sua busca aqui" id="CampoBusca">
+            <button id="accio-button" onclick="IniciarBusca()">✨ Accio</button>
+        </div>
+    </header>
+ 
+    <!-- Conteúdo principal da página -->
+    <main>
+        <!-- Seção clicável para a casa Grifinória -->
+        <a href="gryffindor.html" class="house-link">
+            <section class="gryffindor" style="padding: 20px; margin: 20px; text-align: center;">
+                <h2>Grifinória</h2>
+                <p>Onde habitam os corações indômitos. Ousadia, sangue-frio e nobreza distinguem os corajosos alunos da Grifinória.</p>
+            </section>
+        </a>
+        
+        <!-- Seção clicável para a casa Sonserina -->
+        <a href="slytherin.html" class="house-link">
+            <section class="slytherin" style="padding: 20px; margin: 20px; text-align: center;">
+                <h2>Sonserina</h2>
+                <p>Casa que valoriza a ambição, a astúcia e a herança. Seus membros são conhecidos pela liderança e determinação.</p>
+            </section>
+        </a>
+        
+        <!-- Seção clicável para a casa Corvinal -->
+        <a href="ravenclaw.html" class="house-link">
+            <section class="ravenclaw" style="padding: 20px; margin: 20px; text-align: center;">
+                <h2>Corvinal</h2>
+                <p>A Casa Corvinal valoriza o aprendizado, a sabedoria, a inteligência e o intelecto de seus membros.</p>
+            </section>
+        </a>
+        
+        <!-- Seção clicável para a casa Lufa-Lufa -->
+        <a href="hufflepuff.html" class="house-link">
+            <section class="hufflepuff" style="padding: 20px; margin: 20px; text-align: center;">
+                <h2>Lufa-Lufa</h2>
+                <p>Os alunos pertencentes a casa são conhecidos por serem dedicados, amigáveis, leais, honestos e bastante imparciais.</p>  
+            </section>
+        </a>
+    </main>
+ 
+    <!-- Rodapé da página -->
+    <footer class="site-footer">
+        <ul>
+            <!-- Links de navegação do rodapé -->
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="https://github.com/suzanyfreitash">GitHub</a>
+            </li>
+        </ul>
+    </footer>
+    <script src="/base de conhecimento/script.js"></script> <!-- Contém busca e efeitos -->
+</body>
+</html>

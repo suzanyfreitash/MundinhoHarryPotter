@@ -1,0 +1,160 @@
+{
+    "houses": {
+        "gryffindor": {
+            "name": "Casa Grifinória",
+            "slogan": "Onde habitam os corações indômitos.",
+            "crest_url": "https://th.bing.com/th/id/R.8856c0b06e5c7c726986c1d53d49774b?rik=w0hKZk9HZdcbjw&pid=ImgRaw&r=0",
+            "about": "Fundada por Godrico Gryffindor, a casa Grifinória valoriza a coragem, o cavalheirismo e a determinação. Seus membros são conhecidos pela ousadia e por defenderem aquilo em que acreditam, mesmo diante de grandes perigos. O animal símbolo é o leão, e suas cores são o escarlate e o dourado.",
+            "notable_members": [
+                {
+                    "name": "Harry Potter",
+                    "image_url": "https://wallpapers.com/images/hd/harry-potter-profile-pictures-uv4i3kexi2m83eh2.jpg",
+                    "description": "\"O Menino que Sobreviveu\", famoso por sua bravura e por derrotar Lord Voldemort."
+                },
+                {
+                    "name": "Hermione Granger",
+                    "image_url": "https://tse4.mm.bing.net/th/id/OIP.-MeeiEhS4hXQG1131RRY6wAAAA?rs=1&pid=ImgDetMain&o=7&rm=3",
+                    "description": "A bruxa mais inteligente de sua geração, conhecida por sua lógica e lealdade inabalável."
+                },
+                {
+                    "name": "Ron Weasley",
+                    "image_url": "https://tse1.mm.bing.net/th/id/OIP.QPwj9X8iLIHYHZ5yh9rAkwHaE8?rs=1&pid=ImgDetMain&o=7&rm=3",
+                    "description": "Um amigo leal e corajoso, sempre ao lado de Harry em suas aventuras mais perigosas."
+                }
+            ],
+            "info_section_1": {
+                "title": "Feitiços Característicos",
+                "items": [
+                    "<strong>Expelliarmus:</strong> O feitiço de desarmar, marca registrada de Harry Potter.",
+                    "<strong>Patronus:</strong> Um feitiço defensivo avançado que conjura um guardião de energia positiva.",
+                    "<strong>Estupefaça:</strong> Usado para atordoar oponentes, muito comum em duelos."
+                ]
+            },
+            "info_section_2": {
+                "title": "Acontecimentos Marcantes",
+                "items": [
+                    "<strong>A Vitória na Taça das Casas:</strong> No primeiro ano de Harry, a Grifinória venceu a taça no último momento.",
+                    "<strong>A Batalha de Hogwarts:</strong> A casa liderou a resistência contra Voldemort e seus Comensais da Morte.",
+                    "<strong>A Ordem da Fênix:</strong> Muitos membros da Grifinória, como Sirius Black e os pais de Harry, foram figuras centrais na Ordem."
+                ]
+            }
+        },
+        "hufflepuff": {
+            "name": "Casa Lufa-Lufa",
+            "slogan": "Onde lealdade, paciência e justiça são valorizadas.",
+            "crest_url": "https://th.bing.com/th/id/R.87773cec2e57194a93bf93d3fdc091ae?rik=gDWQxH8%2fZWJA5g&riu=http%3a%2f%2fpm1.narvii.com%2f7032%2f7212cad021831d5ad7c6b88a6d72b8e3b0d8126dr1-562-546v2_uhq.jpg&ehk=Nn01uyyjeEv2%2fjUwem8Y0gcYW0xTTjCjf%2bb%2brpIMJU0%3d&risl=&pid=ImgRaw&r=0",
+            "about": "Fundada pela bruxa Helga Hufflepuff, a Lufa-Lufa é a mais inclusiva das quatro casas. Seus membros são conhecidos por serem justos, leais e trabalhadores. Embora muitas vezes subestimados, os lufanos são bruxos talentosos e corajosos que valorizam a amizade e o jogo limpo acima de tudo. O animal símbolo é o texugo, e suas cores são o amarelo e o preto.",
+            "notable_members": [
+                {
+                    "name": "Newt Scamander",
+                    "image_url": "https://th.bing.com/th/id/R.e6900c224b25cab3edf396a386347e8e?rik=kVO0NBAOs0E6NQ&pid=ImgRaw&r=0",
+                    "description": "Um famoso Magizoologista e autor do livro \"Animais Fantásticos e Onde Habitam\"."
+                },
+                {
+                    "name": "Ninfadora Tonks",
+                    "image_url": "https://tse1.mm.bing.net/th/id/OIP.prTfZHee8i8JIzne78FusQHaJt?rs=1&pid=ImgDetMain&o=7&rm=3",
+                    "description": "Uma Metamorfomaga e membro da Ordem da Fênix, conhecida por sua bravura e bom humor."
+                },
+                {
+                    "name": "Cedrico Diggory",
+                    "image_url": "https://th.bing.com/th/id/R.e9c510241d2c89cde36bf1e18c0717e0?rik=MZiH5sm%2fFtykLA&riu=http%3a%2f%2fimages2.fanpop.com%2fimages%2fphotos%2f7800000%2fCedric-Diggory-HQ-Stills-cedric-diggory-7880853-1058-1448.jpg&ehk=cFEVgVdvpox5kFwHYG8TWhQkKIwzZpWQyAwRf4P4yU0%3d&risl=&pid=ImgRaw&r=0",
+                    "description": "Um apanhador talentoso e campeão de Hogwarts no Torneio Tribruxo, lembrado por sua honra."
+                }
+            ],
+            "info_section_1": {
+                "title": "Valores e Habilidades",
+                "items": [
+                    "<strong>Herbologia:</strong> Muitos lufanos, como a Professora Sprout, têm grande talento para lidar com plantas mágicas.",
+                    "<strong>Lealdade:</strong> A lealdade é uma marca registrada, tornando-os amigos e aliados confiáveis.",
+                    "<strong>Trabalho Duro:</strong> Lufanos não têm medo de se esforçar para alcançar seus objetivos de forma justa."
+                ]
+            },
+            "info_section_2": {
+                "title": "Acontecimentos Marcantes",
+                "items": [
+                    "<strong>A Taça de Helga Hufflepuff:</strong> Um dos artefatos fundadores que, infelizmente, foi transformado em uma Horcrux.",
+                    "<strong>Batalha de Hogwarts:</strong> A Lufa-Lufa foi a segunda casa com mais estudantes que ficaram para lutar, mostrando sua imensa coragem.",
+                    "<strong>Campeonato de Quadribol:</strong> Cedrico Diggory liderou a equipe da Lufa-Lufa à vitória contra a Grifinória."
+                ]
+            }
+        },
+        "ravenclaw": {
+            "name": "Casa Corvinal",
+            "slogan": "A inteligência além da medida é o maior tesouro do homem.",
+            "crest_url": "https://th.bing.com/th/id/R.c8332155c4742d8a55b87357173551f4?rik=1%2fBv2E2i2s2gYg&pid=ImgRaw&r=0",
+            "about": "Fundada pela bruxa Rowena Ravenclaw, a casa Corvinal valoriza a inteligência, o conhecimento, a criatividade e a sabedoria. Seus membros são conhecidos por serem extremamente inteligentes e muitas vezes excêntricos. Para entrar em seu salão comunal, é preciso responder a um enigma, em vez de usar uma senha. O animal símbolo é a águia, e suas cores são o azul e o bronze.",
+            "notable_members": [
+                {
+                    "name": "Luna Lovegood",
+                    "image_url": "https://th.bing.com/th/id/R.f7690e363f858b3f145b028d2153bce9?rik=q3%2b9xVb8%2f%2fUaFA&pid=ImgRaw&r=0",
+                    "description": "Uma bruxa excêntrica e sonhadora, conhecida por sua mente aberta e lealdade inabalável a seus amigos."
+                },
+                {
+                    "name": "Filius Flitwick",
+                    "image_url": "https://tse1.mm.bing.net/th/id/OIP.6_mG5sQ_3yZo92t_c2b9DAHaLH?rs=1&pid=ImgDetMain",
+                    "description": "Professor de Feitiços em Hogwarts e diretor da casa Corvinal. Um mestre em duelos, apesar de sua baixa estatura."
+                },
+                {
+                    "name": "Cho Chang",
+                    "image_url": "https://tse3.mm.bing.net/th/id/OIP.9-y_s-t_g-Y_v9q_h-q_YQHaE8?rs=1&pid=ImgDetMain",
+                    "description": "Uma apanhadora talentosa para o time de Quadribol da Corvinal e membro da Armada de Dumbledore."
+                }
+            ],
+            "info_section_1": {
+                "title": "Habilidades e Feitiços",
+                "items": [
+                    "<strong>Feitiços Não-Verbais:</strong> Muitos corvinais se destacam no uso de feitiços sem pronunciar o encantamento.",
+                    "<strong>Criação de Feitiços:</strong> A criatividade da casa levou à invenção de novos feitiços por seus membros.",
+                    "<strong>Raciocínio Lógico:</strong> Essencial para resolver os enigmas que protegem o salão comunal."
+                ]
+            },
+            "info_section_2": {
+                "title": "Artefatos e Lugares",
+                "items": [
+                    "<strong>O Diadema de Ravenclaw:</strong> Um artefato mágico que supostamente aumenta a sabedoria de quem o usa, mas que foi transformado em uma Horcrux.",
+                    "<strong>Salão Comunal:</strong> Localizado em uma das torres mais altas do castelo, com uma vista deslumbrante das montanhas.",
+                    "<strong>A Aldrabra de Águia:</strong> O guardião encantado da entrada do salão comunal, que propõe enigmas aos que desejam entrar."
+                ]
+            }
+        },
+        "slytherin": {
+            "name": "Casa Sonserina",
+            "slogan": "Onde a ambição, a astúcia e o poder são valorizados.",
+            "crest_url": "https://th.bing.com/th/id/R.533c555651c0f199a38701d4b7c15f93?rik=UvYxYm2A2YtS%2fw&pid=ImgRaw&r=0",
+            "about": "Fundada por Salazar Slytherin, a casa Sonserina é conhecida por abrigar bruxos ambiciosos, astutos e com sede de poder. Seus membros frequentemente vêm de linhagens de sangue puro e são mestres na arte da Legilimência. O salão comunal fica nas masmorras, sob o Lago Negro. O animal símbolo é a serpente, e suas cores são o verde e o prata.",
+            "notable_members": [
+                {
+                    "name": "Draco Malfoy",
+                    "image_url": "https://tse2.mm.bing.net/th/id/OIP.j2g2vj6-R-JfgZ-b_o_l-gHaLH?rs=1&pid=ImgDetMain",
+                    "description": "Rival de Harry Potter, vindo de uma família de sangue puro e Comensal da Morte."
+                },
+                {
+                    "name": "Severus Snape",
+                    "image_url": "https://th.bing.com/th/id/R.b03423c392f833a5b81d7202e86b9f29?rik=2%2f0mS0C0Y22YCA&pid=ImgRaw&r=0",
+                    "description": "Mestre de Poções e uma figura complexa que atuou como agente duplo na guerra contra Voldemort."
+                },
+                {
+                    "name": "Lord Voldemort",
+                    "image_url": "https://tse3.mm.bing.net/th/id/OIP.wB_A_ut4R4TqerfAzp5-YwHaEK?rs=1&pid=ImgDetMain",
+                    "description": "O herdeiro de Sonserina e o bruxo das trevas mais temido de todos os tempos, também conhecido como Tom Riddle."
+                }
+            ],
+            "info_section_1": {
+                "title": "Habilidades e Feitiços",
+                "items": [
+                    "<strong>Ofidioglossia:</strong> A rara habilidade de falar com cobras, uma característica do próprio Salazar Slytherin.",
+                    "<strong>Artes das Trevas:</strong> Muitos membros são proficientes em feitiços e maldições das Artes das Trevas, como a Maldição da Morte (Avada Kedavra).",
+                    "<strong>Legilimência:</strong> A arte de 'ler' a mente de outra pessoa, dominada por bruxos como Snape e Voldemort."
+                ]
+            },
+            "info_section_2": {
+                "title": "Artefatos e Lugares",
+                "items": [
+                    "<strong>O Medalhão de Slytherin:</strong> Um dos artefatos de Salazar Slytherin, que foi transformado em uma das Horcruxes de Voldemort.",
+                    "<strong>A Câmara Secreta:</strong> Uma câmara oculta criada por Salazar Slytherin que abrigava um Basilisco.",
+                    "<strong>Salão Comunal:</strong> Localizado nas masmorras de Hogwarts, com uma vista para as profundezas do Lago Negro."
+                ]
+            }
+        }
+    }
+}
